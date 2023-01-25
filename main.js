@@ -2,6 +2,7 @@
 function getLocation(){
     const location = document.getElementById("location")
     console.log(location.value)
+    console.log("Goodbye World :'(");
 //API
 fetch("https://api.openweathermap.org/data/2.5/forecast?q="+location.value+"&appid=c9dbfe419caaad8dfe99e90d39c81b98")
 .then(response=>response.json())
